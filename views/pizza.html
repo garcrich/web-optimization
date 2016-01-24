@@ -2,10 +2,11 @@
 <html>
 <head>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/bootstrap-grid-min.css">
+  <title>Cam's Pizzeria</title>
 </head>
 
-<body>
+<body id="body">
   <div class="container">
     <div id="header" class="row">
       <div class="col-md-6">
@@ -14,17 +15,17 @@
             <h1>Cam's Pizzeria</h1>
             <div class="row">
               <div id="menu" class="col-md-12">
-                <form action="#randomPizzas">
-                  <input type="submit" value="Menu">
+                <form class="form" action="#randomPizzas">
+                  <input class="input_btn" type="submit" value="Menu">
                 </form>
-                <form action="#ingredients">
-                  <input type="submit" value="Our Ingredients">
+                <form class="form" action="#ingredients">
+                  <input class="input_btn"  type="submit" value="Our Ingredients">
                 </form>
-                <form action="#locations">
-                  <input type="submit" value="Locations">
+                <form class="form" action="#locations">
+                  <input class="input_btn" type="submit" value="Locations">
                 </form>
-                <form action="#" onsubmit="alert('Thanks for clicking! This button doesn\'t do anything because this is a fake pizzeria :\)')">
-                  <input type="submit" value="Contact Us">
+                <form class="form" action="#" onsubmit="alert('Thanks for clicking! This button doesn\'t do anything because this is a fake pizzeria :\)')">
+                  <input class="input_btn" type="submit" value="Contact Us">
                 </form>
               </div>
             </div>
@@ -36,7 +37,7 @@
     </div>
     <div id="callToAction" class="row">
       <div class="col-md-4">
-        <img src="images/pizzeria.jpg" class="img-responsive"> <!-- Image credit to: http://commons.wikimedia.org/wiki/File:HK_TST_night_%E5%98%89%E8%98%AD%E9%81%93_Granville_Road_restaurant_Paisano's_Pizzeria_pizza_Dec-2013.JPG -->
+        <img src="images/pizzeria.png" class="img-responsive">
       </div>
       <div class="col-md-8">
         <div class="row">
@@ -110,8 +111,6 @@
               <h4>The Udacity Special</h4>
               <ul>
                 <li>Turkey</li>
-                <li>Tofu</li>
-                <li>Cauliflower</li>
                 <li>Sun Dried Tomatoes</li>
                 <li>Velveeta Cheese</li>
                 <li>Red Sauce</li>
