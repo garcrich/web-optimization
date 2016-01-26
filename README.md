@@ -10,7 +10,7 @@ Achieving a Google PageSpeed of 90 or above and a FPS of 60 for pizza-min.html
 
 To access the website, copy and paste the following url into your browsers address bar:
 
-http://garcrich.github.io/frontend-nanodegree-mobile-portfolio/
+http://garcrich.github.io/web-optimization/
 
 #How to test requirements
 
