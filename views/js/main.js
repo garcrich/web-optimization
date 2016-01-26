@@ -472,9 +472,9 @@ function updatePositions() {
   var scrollFn = document.body.scrollTop / 1250;
   var SPACING = 100;
   var items = document.getElementsByClassName('mover');
-
+  var phase;
   for (var i = 0; i < items.length; i++) {
-    var phase = Math.sin((scrollFn + (i % 5)));
+    phase = Math.sin((scrollFn + (i % 5)));
     items[i].style.left = items[i].basicLeft + SPACING * phase + 'px';
   }
 
@@ -493,18 +493,20 @@ window.addEventListener('scroll', updatePositions);
 
 // Generates the sliding pizzas when the page loads.
 document.addEventListener('DOMContentLoaded', function() {
-  var cols = 6;
+  var cols = 8;
   var s = 256;
+  var elem;
+  var movingPizzas;
   //reduced to 25 pizzas. Too much diversification. Need to focus on making quality
   for (var i = 0; i < 25; i++) {
-    var elem = document.createElement('img');
+    elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
     elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
-    document.getElementById("movingPizzas1").appendChild(elem);
+    movingPizzas = document.getElementById("movingPizzas1").appendChild(elem);
   }
   updatePositions();
 });
