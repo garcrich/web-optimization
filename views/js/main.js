@@ -404,6 +404,7 @@ var resizePizzas = function(size) {
 
 
   function changePizzaSizes(size) {
+    var newWidth;
       switch(size) {
         case "1":
           newWidth = "25%";
