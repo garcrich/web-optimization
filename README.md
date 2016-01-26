@@ -49,7 +49,7 @@ https://developers.google.com/speed/pagespeed/insights/
 
 copy and paste
 
-http://garcrich.github.io/frontend-nanodegree-mobile-portfolio/
+http://garcrich.github.io/web-optimization
 
 Into analyze field.
 
