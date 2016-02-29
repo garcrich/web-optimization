@@ -8,7 +8,7 @@ Achieving a Google PageSpeed of 90 or above and a FPS of 60 for pizza-min.html
 
 #Access Website
 
-To access the website, copy and paste the following url into your browsers address bar:
+To access the website, click the link below:
 
 http://garcrich.github.io/web-optimization/
 
