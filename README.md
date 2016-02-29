@@ -1,4 +1,4 @@
-# Website Performance Optimization portfolio project
+# Website Performance Optimization Portfolio Project
 
 The objective of this project was to test the student’s ability to improve an extremely inefficient website. Supporting courses included Website Performance Optimization and Browser Rendering Optimization. 
 
@@ -38,7 +38,7 @@ http://garcrich.github.io/web-optimization/
 * Reduced Forced Synchronous Layout be declaring variables outside of for loops. See example here [https://www.udacity.com/course/viewer#!/c-ud860-nd/l-4147498575/e-4154208580/m-4240308553]
 * Reduced number of randomly generated pizzas that appeared on screen as well as pizzas in the background.
 
-#How to test requirements
+#How to Test Requirements
 
 
 ##PageSpeed Insights
